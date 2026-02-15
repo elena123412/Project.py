@@ -1,0 +1,2 @@
+int_age=int(input("how old are you ?\n"))
+print(f"you were born in the year {2026-int_age}")
