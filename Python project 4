@@ -1,0 +1,12 @@
+# 1. الترحيب بالمستخدم
+print("Welcome to the YouTube Channel Name Generator")
+
+# 2. سؤال المستخدم عن اسمه (المُدخل الأول)
+nickname = input("What is your nickname?\n")
+
+# 3. سؤال المستخدم عن محتوى القناة (المُدخل الثاني)
+topic = input("What is your channel about?\n")
+
+# 4. دمج المدخلات وعرض النتيجة باستخدام f-string
+print(f"You could name your channel ({topic} with {nickname})")
+
