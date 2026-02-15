@@ -1,0 +1,5 @@
+total_minutes=input("please type the number for minutes\n")
+int_minutes=int(total_minutes)
+hour=int_minutes//60
+minutes=int_minutes%60
+print(f"this course is{hour} hours {minutes} minutes long")
