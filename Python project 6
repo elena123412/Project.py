@@ -1,0 +1,8 @@
+#type امر لمعرفة نوع البيانات 
+print(type(3))
+print(type('3'))
+print(type(True))
+print(type(False))
+print(type(112.56))
+user_pin=input("Enter your pin number")
+print(type(user_pin))
