@@ -1,0 +1,7 @@
+Seconds=int(input("Enter the duration  in Seconds\n"))
+if Seconds>0:
+    print(f" the duration :{Seconds//3600}hour, {(Seconds%3600)//60} minutes,and {Seconds%60} Seconds")
+else:
+    print("\033[31m"+"Error:please enter a number greater than 0!"+"\033[0m")
+
+    
