@@ -1,0 +1,13 @@
+ # السطر الأول: بناخد السنة ونحولها لرقم
+birth_year = int(input("Enter birth year : "))
+
+# السطر الثاني: السنة اللي إحنا فيها
+current_year = 2026
+
+# السطر الثالث: الطرح
+age = current_year - birth_year
+
+# السطر الرابع: الطباعة
+print(f"Your age is: {age} years old")
+
+
