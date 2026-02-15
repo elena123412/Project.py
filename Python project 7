@@ -1,0 +1,12 @@
+ # 1. استقبال البيانات وتحويلها لأرقام عشرية (Float)
+length = float(input("Please type Length: "))
+width = float(input("Please type width: "))
+price_per_meter = float(input("how much for 1 meter? : "))
+
+# 2. العمليات الحسابية
+area = length * width
+total_price = area * price_per_meter
+
+# 3. طباعة النتائج باستخدام f-string (اللي اتعلمناها!)
+print(f"The total area is: {area}")
+print(f"Give the guy: ${total_price}")
