@@ -1,0 +1,11 @@
+# تخزين الاسم في متغير نصي (String)
+name = "Luna"
+
+# طباعة الحرف الثاني من الاسم 
+# (نستخدم Index 1 للوصول للحرف الثاني)
+print(name[1]) 
+# امر تحويل النص الي رقم String 
+print(len(str(12345)))
+#inputاي حاجه  بتسجلها علي انها نص 
+USER_pin=input("Enter your pin number\n")
+print(len(USER_pin))
