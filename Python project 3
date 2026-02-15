@@ -1,0 +1,10 @@
+# ترحيب عام
+print('welcome to our application\n')
+#طلب من المستخدم ادخال اسمه تخزينة في متغير 
+user_name=input('what is your name\n')
+print(user_name)
+#عرض رساله ترحيب مخصصه للمستخدم
+print(f'nice to meet you'  +user_name)
+#عرض رساله تخبر المستخدم بعدد حروف اسمه
+namelen=len(user_name)
+print(namelen)
