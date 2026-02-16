@@ -1,0 +1,3 @@
+password=str(input("Enter your password"))
+if password!='luna':
+    print("sorry,your password is wrong ,try agin")
