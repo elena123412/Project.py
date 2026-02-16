@@ -1,0 +1,5 @@
+chair_Number=int(input("Enter your chair number:\n"))
+if chair_Number== 21:
+    print("you win ")
+else:
+    print("sorry")
