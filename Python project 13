@@ -1,0 +1,9 @@
+scor=float(input("Enter your test score:\n"))
+if scor >= 90:
+    print("you are A grade !")
+elif scor >=75:
+    print("you got a B grade !")
+elif scor>=50:
+  print("you got a C grade ")
+else:
+    print("you got an F grade")
