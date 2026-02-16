@@ -1,0 +1,6 @@
+password=input("please enter your password :\n")
+correct_password='luna'
+if password==correct_password:
+    print("welcome to the app")
+else:
+    print("sorry,you can't use the app")
