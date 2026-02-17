@@ -1,6 +1,9 @@
-guessed=int(input("please guess a number :\n"))
-correct_number= 7
-if guessed==correct_number:
-    print("Good guess")
+area=input("Chose an area:(Cairo),(Alexandria)or(Tanta)\n")
+if area.lower()=="cairo":
+    print("you chose Cairo")
+elif area.upper()=="TANTA":
+    print("Tanta IS nice!")
+elif area.lower()=="alexandria":
+    print("feels like summer!")
 else:
-    print(f"you guessed {guessed},but the correct number is {correct_number}")
+    print(f"sorry,{area} is not on our list!")
