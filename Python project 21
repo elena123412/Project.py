@@ -1,0 +1,7 @@
+name=input("please enter your name:\n")
+password=input("please enter your password:\n")
+if name.lower()=="luna"and password== "Ich Bin luna":
+    print("welcom back !")
+else:
+    print("sorry,wrong name or password")
+
